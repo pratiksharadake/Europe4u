@@ -1,0 +1,32 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: Bridge Theme
+Tags: creative, portfolio, multi-purpose, clean, retina, responsive, parallax, mega menu, blog, agency, business, fullscreen, modern, background video, ajax
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 4.1
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+@import "../bridge/style.css";
+
+.container_inner {width:1180px;}
+
+.header_bottom {background-color: #283243 !important;}
+header.fixed.scrolled .header_bottom, header.fixed_hiding.scrolled .header_bottom {background-color: #283243 !important;}
+header.centered_logo.centered_logo_animate .q_logo img, header:not(.centered_logo) .q_logo img {height:90% !important; width:240px !important;}
+.container {padding:25px 0px;}
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {content:none;}
+.title.title_size_small.position_left {margin-top:60px;}
+
+nav.main_menu {margin-top:28px;}
+nav.main_menu > ul > li > a {color:#0487b9; font-family: 'Open Sans'; font-size:17px; line-height:25px !important; opacity:1 !important; padding:0px; margin:0px 15px; letter-spacing:normal;}
+nav.main_menu > ul > li > a:hover {color:#fff; border-top:1px solid #fff;}
+nav.main_menu > ul > li.active > a {color:#fff; border-top:1px solid #fff;}
+
+table.cnss-social-icon tr td, table.cnss-social-icon, table.cnss-social-icon tr {float: right; position: relative; right: -229px; top: 31px; z-index: 200;}
